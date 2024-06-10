@@ -39,7 +39,7 @@ def main():
    # front end elements of the web page
    html_temp = """
 <div style ="background-color:blue;padding:13px">
-<h1 style ="color:orange;text-align:center;">Streamlit Loan Prediction ML App</h1>
+<h1 style ="color:orange;text-align:center;">Loan Approval Prediction ML Application</h1>
 </div>
    """
    # display the front end aspect

@@ -49,8 +49,8 @@ def main():
    Married = st.selectbox('Marital Status',("Unmarried","Married"))
    Dependents = st.number_input('Dependents')
    Self_Employed = st.selectbox('Self_Employed', ("Yes","No"))
-   ApplicantIncome = st.number_input("Applicants monthly income")
-   CoapplicantIncome = st.number_input('CoapplicantIncome')
+   ApplicantIncome = st.number_input("Monthly Income")
+   CoapplicantIncome = st.number_input('Other Income')
    LoanAmount = st.number_input("Total loan amount")
    Credit_History = st.selectbox('Credit_History',("Unclear Debts","No Unclear Debts"))
    result =""
